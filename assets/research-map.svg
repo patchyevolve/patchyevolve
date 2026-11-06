@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Research and engineering map</title>
+<desc id="desc">A visual map connecting software foundations, code intelligence, security research, and interactive systems.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#102a43"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+<g stroke="#19364a" opacity=".5"><path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200"/><path d="M100 0V300M200 0V300M300 0V300M400 0V300M500 0V300M600 0V300M700 0V300M800 0V300M900 0V300M1000 0V300M1100 0V300"/></g>
+<path d="M155 150H1045" fill="none" stroke="url(#line)" stroke-width="2" opacity=".55"/>
+<g fill="#0d1b2b" stroke="#38bdf8" stroke-width="2">
+<circle cx="155" cy="150" r="48"/><circle cx="450" cy="150" r="48"/><circle cx="750" cy="150" r="48"/><circle cx="1045" cy="150" r="48"/>
+</g>
+<g fill="#67e8f9" filter="url(#glow)">
+<circle cx="155" cy="150" r="5"/><circle cx="450" cy="150" r="5"/><circle cx="750" cy="150" r="5"/><circle cx="1045" cy="150" r="5"/>
+</g>
+<g fill="#e2e8f0" text-anchor="middle" font-family="Inter,Arial,sans-serif">
+<text x="155" y="138" font-size="15" font-weight="700">SYSTEMS</text><text x="155" y="160" font-size="12" fill="#9fb5c8">runtime · foundations</text>
+<text x="450" y="138" font-size="15" font-weight="700">CODE INTELLIGENCE</text><text x="450" y="160" font-size="12" fill="#9fb5c8">parsing · graphs</text>
+<text x="750" y="138" font-size="15" font-weight="700">SECURITY &amp; ML</text><text x="750" y="160" font-size="12" fill="#9fb5c8">detection · evidence</text>
+<text x="1045" y="138" font-size="15" font-weight="700">INTERACTIVE SYSTEMS</text><text x="1045" y="160" font-size="12" fill="#9fb5c8">simulation · interfaces</text>
+</g>
+<g fill="#38bdf8" opacity=".7">
+<circle cx="303" cy="150" r="3"/><circle cx="598" cy="150" r="3"/><circle cx="898" cy="150" r="3"/>
+</g>
+<text x="600" y="255" fill="#94a3b8" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="3">RESEARCH QUESTIONS → ENGINEERED SYSTEMS</text>
+</svg>
