@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/patchyevolve/patchyevolve/main/assets/research-map.svg" width="100%" alt="Daksh Walia — software engineering, systems, and research across systems, code intelligence, security and machine learning, and interactive systems" />
+<img src="https://raw.githubusercontent.com/patchyevolve/patchyevolve/main/assets/research-map.svg?v=2" width="100%" alt="Daksh Walia — software engineering, systems, and research across systems, code intelligence, security and machine learning, and interactive systems" />
 
 **I study how software behaves beneath the interface, then build tools and products around what I learn.**
 
