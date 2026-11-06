@@ -1,37 +1,56 @@
-# Daksh Walia
+<p align="center">
+  <img src="assets/network-systems.svg" alt="Daksh Walia — networks in motion, systems under the hood" width="100%">
+</p>
 
-**Systems software · AI and security research · developer tools**
+<p align="center">
+  <strong>Systems &amp; network engineering</strong> · Linux · security · developer infrastructure
+  <br>
+  <a href="mailto:ishandaksh1000@gmail.com">Email</a> ·
+  <a href="https://www.linkedin.com/in/daksh-walia-107748308/">LinkedIn</a> ·
+  <a href="https://github.com/patchyevolve">GitHub</a> ·
+  <a href="https://sysportfolio.netlify.app/">Systems portfolio</a>
+</p>
 
-I build software from low-level components to full applications, with a focus on understanding system behavior and making complex workflows inspectable.
+---
 
-## Focus areas
+## Engineering focus
 
-**Systems and performance** — C/C++, Rust, process and memory behavior, kernels, simulation, and real-time rendering.  
-**AI, security, and evidence** — intrusion detection, secure exchange, graph-based analysis, and evaluation tooling.  
-**Developer and product engineering** — source-code intelligence, backend services, and interactive desktop, web, and mobile applications.
+I work across the layers where software meets the machine: process and memory behavior, network-facing services, secure data paths, and the tools used to inspect complex code. The projects below are prototypes, research work, and practical builds; links lead to their source and project notes.
 
-## Selected work
+### Network security &amp; secure systems
 
-| Project | Work shown in the repository |
+| Project | What’s inside |
 |---|---|
-| [SIM-freak](https://github.com/patchyevolve/SIM-freak) | C++20 N-body simulation, Barnes–Hut gravity, GPU compute shaders, stellar evolution, and OpenGL rendering |
-| [ForgeCore](https://github.com/patchyevolve/ForgeCore) | Python code-generation system with planner/critic loop, symbol and dependency validation, snapshots, and tests |
-| [AI-IDS-pipeline](https://github.com/patchyevolve/AI-IDS-pipeline) | CNN/RNN intrusion-detection pipeline, co-evolution components, C++ backend, and validation tools |
-| [mapit](https://github.com/patchyevolve/mapit) | Rust and tree-sitter codebase mapper with symbol/call graphs, CLI, and web interface |
-| [SprintBridge](https://github.com/patchyevolve/sprintbridge) | React/TypeScript and FastAPI platform with PostgreSQL migrations and backend, frontend, and browser tests |
-| [LIVEWALLIE](https://github.com/patchyevolve/LIVEWALLIE) | GNOME desktop visuals driven by system telemetry and audio; Rust sampler and shell extension |
-| [Custom Unix Shell](https://github.com/patchyevolve/codecrafters-shell-cpp) | C++ shell with parsing, built-ins, process execution, pipelines, redirection, and history |
-| [CheckOutRadar](https://github.com/patchyevolve/CheckOutRadar) | Checkout-flow comparison and evidence capture with deterministic mocks and backend tests |
+| [AI-IDS-pipeline](https://github.com/patchyevolve/AI-IDS-pipeline) | Network intrusion-detection research: CNN/RNN pipeline, evolving attack/defense components, validation tooling, and an optional C++ backend. |
+| [ZT-SDX](https://github.com/patchyevolve/zt_SDX_) | Zero-trust document exchange prototype with a gateway, authentication and policy checks, service boundaries, and audit-oriented workflows. |
+| [PQCOMM](https://github.com/patchyevolve/PQCOMM) | Secure communications implementation and architecture work in C. |
 
-## Other areas
+### Linux, systems &amp; runtime
 
-- **Systems foundations:** [sys-portfolio](https://github.com/patchyevolve/sys-portfolio) (C allocator, VM, Lisp interpreter, server), [LAYEREDOS](https://github.com/patchyevolve/LAYEREDOS-TRYOUT1), [PQCOMM](https://github.com/patchyevolve/PQCOMM) (secure communications implementation).
-- **Applied systems:** [ExpenseTracker](https://github.com/patchyevolve/ExpenseTracker) (Android and server ledger), [Reactive Keychain Buddy](https://github.com/patchyevolve/reactiveBUDDY) (ESP32, Android, Go), [simSUS](https://github.com/patchyevolve/simSUS) (Python N-body simulator).
-- **Security and analysis:** [ZT-SDX](https://github.com/patchyevolve/zt_SDX_), [CrimeNet](https://github.com/patchyevolve/crimenet-system).
+| Project | What’s inside |
+|---|---|
+| [Custom Unix Shell](https://github.com/patchyevolve/codecrafters-shell-cpp) | C++ shell: parsing, processes, pipes, redirection, built-ins, and history. |
+| [Systems portfolio](https://github.com/patchyevolve/sys-portfolio) | C projects covering a memory allocator, cryptographic primitives, an RTOS, a VM, an interpreter, and a web server. Includes a live source-backed portfolio. |
+| [LIVEWALLIE](https://github.com/patchyevolve/LIVEWALLIE) | GNOME Shell extension and Rust sampler connecting CPU, temperature, GPU, battery, memory, and audio signals to a live desktop visual. |
+| [Reactive Keychain Buddy](https://github.com/patchyevolve/reactiveBUDDY) | ESP32-C3 firmware, Android companion, and Go service; Bluetooth LE and offline-first device behavior. |
 
-## Languages and tools
+### Engineering tools &amp; applied systems
 
-**Languages:** C · C++ · Rust · Python · TypeScript · JavaScript · Kotlin · Go  
-**Frameworks and systems:** React · FastAPI · Flask · PostgreSQL · SQLite · Linux · CMake · Cargo · tree-sitter
+| Project | What’s inside |
+|---|---|
+| [mapit](https://github.com/patchyevolve/mapit) | Rust and tree-sitter code mapper that builds symbol, call, and dependency graphs, with terminal and browser interfaces. |
+| [CrimeNet](https://github.com/patchyevolve/crimenet-system) | Explainable link-analysis platform with human-reviewed suggestions, audit trails, and tamper-evident records. |
+| [SIM-freak](https://github.com/patchyevolve/SIM-freak) | C++20 N-body simulation with Barnes–Hut gravity, stellar evolution, GPU compute, and OpenGL rendering. |
+| [SprintBridge](https://github.com/patchyevolve/SprintBridge) | Full-stack React/TypeScript and FastAPI application with PostgreSQL, evidence-based matching, and browser/backend tests. |
 
-[GitHub](https://github.com/patchyevolve) · [Email](mailto:ishandaksh1000@gmail.com) · [LinkedIn](https://www.linkedin.com/in/daksh-walia-107748308/)
+## Languages &amp; tools
+
+**Languages**  
+C · C++ · Rust · Python · TypeScript · JavaScript · Kotlin · Go
+
+**Frameworks, platforms &amp; infrastructure**  
+Linux · React · FastAPI · Flask · Go/Gin · Android / Jetpack Compose · ESP-IDF · PostgreSQL · SQLite · tree-sitter · CMake · Cargo
+
+---
+
+<sub>Selected work is linked to its source so you can inspect the implementation and project scope directly.</sub>
