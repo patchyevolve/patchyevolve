@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" fill="none">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse"><stop stop-color="#0B1220"/><stop offset="1" stop-color="#111D2D"/></linearGradient>
+  <linearGradient id="line" x1="650" y1="40" x2="1150" y2="290" gradientUnits="userSpaceOnUse"><stop stop-color="#4DE0C1"/><stop offset="1" stop-color="#70A7FF"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#B5C9E5" stroke-opacity=".055"/></pattern>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="330" rx="18" fill="url(#bg)"/><rect width="1200" height="330" rx="18" fill="url(#grid)"/>
+<path d="M0 270H1200" stroke="#D7E4F2" stroke-opacity=".1"/>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
+  <text x="54" y="58" fill="#72E5CA" font-size="13" letter-spacing="3">DAKSH WALIA  /  ENGINEERING NOTES</text>
+  <text x="54" y="137" fill="#F1F5FA" font-size="44" font-weight="700" letter-spacing="-1.5">Networks in motion.</text>
+  <text x="54" y="190" fill="#F1F5FA" font-size="44" font-weight="700" letter-spacing="-1.5">Systems under the hood.</text>
+  <text x="56" y="232" fill="#AAB9CC" font-size="16">Linux · networking · secure systems · developer tools</text>
+  <text x="56" y="293" fill="#71839B" font-size="12" letter-spacing="1.4">BUILDING, MEASURING, AND UNDERSTANDING SOFTWARE</text>
+</g>
+<g stroke="url(#line)" stroke-width="2" stroke-opacity=".8">
+  <path d="M746 165H830M910 165H977M1057 165H1135"/>
+  <path d="M870 123V86H1017V125M1017 205V244H1115V205"/>
+  <path d="M1017 165V165"/>
+  <path d="M788 165V88H870V123"/>
+  <path d="M1017 165H1017"/>
+</g>
+<g fill="#0E1A29" stroke="#74DFC9" stroke-width="2">
+ <rect x="686" y="140" width="100" height="50" rx="10"/>
+ <rect x="830" y="123" width="80" height="84" rx="12"/>
+ <rect x="977" y="140" width="80" height="50" rx="10"/>
+ <rect x="1115" y="140" width="64" height="50" rx="10"/>
+ <rect x="839" y="62" width="62" height="48" rx="9"/>
+ <rect x="1084" y="220" width="62" height="48" rx="9"/>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" text-anchor="middle">
+ <text x="736" y="170" fill="#DCE8F6" font-size="11">EDGE</text>
+ <text x="870" y="158" fill="#DCE8F6" font-size="11">LINUX</text><text x="870" y="177" fill="#91A7C0" font-size="10">HOST</text>
+ <text x="1017" y="170" fill="#DCE8F6" font-size="11">SERVICES</text>
+ <text x="1147" y="170" fill="#DCE8F6" font-size="10">DATA</text>
+ <text x="870" y="92" fill="#DCE8F6" font-size="9">OBSERVE</text>
+ <text x="1115" y="249" fill="#DCE8F6" font-size="9">SECURE</text>
+</g>
+<g fill="#70E4C9" filter="url(#glow)">
+ <circle cx="806" cy="165" r="3"/><circle cx="943" cy="165" r="3"/><circle cx="1084" cy="165" r="3"/>
+</g>
+</svg>
