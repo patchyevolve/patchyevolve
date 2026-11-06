@@ -1,22 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-<title id="title">Research and engineering map</title>
-<desc id="desc">A visual map connecting systems, code intelligence, security and applied machine learning, and interactive systems.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+<title id="title">Daksh Walia — research and engineering</title>
+<desc id="desc">Research map across software systems, code intelligence, security and applied machine learning, and interactive systems.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#102a43"/></linearGradient>
-  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090f1c"/><stop offset=".55" stop-color="#10263b"/><stop offset="1" stop-color="#0b3348"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#0e7490" stop-opacity=".28"/><stop offset="1" stop-color="#0e7490" stop-opacity="0"/></radialGradient>
 </defs>
-<rect width="1200" height="300" rx="24" fill="url(#bg)"/>
-<g stroke="#19364a" opacity=".45" fill="none"><path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200"/><path d="M100 0V300M200 0V300M300 0V300M400 0V300M500 0V300M600 0V300M700 0V300M800 0V300M900 0V300M1000 0V300M1100 0V300"/></g>
-<path d="M155 174V204H1045V174M450 174V204M750 174V204" fill="none" stroke="url(#line)" stroke-width="2" opacity=".55"/>
-<g fill="#0d1b2b" stroke="#38bdf8" stroke-width="2">
-<circle cx="155" cy="126" r="48"/><circle cx="450" cy="126" r="48"/><circle cx="750" cy="126" r="48"/><circle cx="1045" cy="126" r="48"/>
+<rect width="1200" height="390" rx="26" fill="url(#bg)"/>
+<circle cx="980" cy="28" r="360" fill="url(#halo)"/>
+<g stroke="#234158" opacity=".35" fill="none"><path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200"/><path d="M100 0V390M200 0V390M300 0V390M400 0V390M500 0V390M600 0V390M700 0V390M800 0V390M900 0V390M1000 0V390M1100 0V390"/></g>
+<text x="68" y="90" fill="#f1f5f9" font-family="Inter,Arial,sans-serif" font-size="43" font-weight="700" letter-spacing="1">DAKSH WALIA</text>
+<text x="70" y="124" fill="#8de2ee" font-family="Inter,Arial,sans-serif" font-size="15" letter-spacing="3">SOFTWARE ENGINEERING · SYSTEMS · RESEARCH</text>
+<path d="M155 236V274H1045V236M450 236V274M750 236V274" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".6"/>
+<g fill="#0c1a2a" stroke="#38bdf8" stroke-width="2">
+<circle cx="155" cy="188" r="48"/><circle cx="450" cy="188" r="48"/><circle cx="750" cy="188" r="48"/><circle cx="1045" cy="188" r="48"/>
 </g>
 <g fill="#e2e8f0" text-anchor="middle" font-family="Inter,Arial,sans-serif">
-<text x="155" y="118" font-size="15" font-weight="700">SYSTEMS</text><text x="155" y="140" font-size="11" fill="#9fb5c8">runtime · foundations</text>
-<text x="450" y="118" font-size="14" font-weight="700">CODE INTELLIGENCE</text><text x="450" y="140" font-size="11" fill="#9fb5c8">parsing · graphs</text>
-<text x="750" y="118" font-size="15" font-weight="700">SECURITY &amp; ML</text><text x="750" y="140" font-size="11" fill="#9fb5c8">detection · evidence</text>
-<text x="1045" y="118" font-size="13" font-weight="700">INTERACTIVE SYSTEMS</text><text x="1045" y="140" font-size="11" fill="#9fb5c8">simulation · interfaces</text>
+<text x="155" y="181" font-size="15" font-weight="700">SYSTEMS</text><text x="155" y="201" font-size="11" fill="#9fb5c8">runtime · foundations</text>
+<text x="450" y="181" font-size="14" font-weight="700">CODE INTELLIGENCE</text><text x="450" y="201" font-size="11" fill="#9fb5c8">parsing · graphs</text>
+<text x="750" y="181" font-size="15" font-weight="700">SECURITY &amp; ML</text><text x="750" y="201" font-size="11" fill="#9fb5c8">detection · evidence</text>
+<text x="1045" y="181" font-size="13" font-weight="700">INTERACTIVE SYSTEMS</text><text x="1045" y="201" font-size="11" fill="#9fb5c8">simulation · interfaces</text>
 </g>
-<g fill="#67e8f9"><circle cx="155" cy="126" r="3"/><circle cx="450" cy="126" r="3"/><circle cx="750" cy="126" r="3"/><circle cx="1045" cy="126" r="3"/></g>
-<text x="600" y="258" fill="#94a3b8" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="3">RESEARCH QUESTIONS → ENGINEERED SYSTEMS</text>
+<g fill="#67e8f9"><circle cx="155" cy="188" r="3"/><circle cx="450" cy="188" r="3"/><circle cx="750" cy="188" r="3"/><circle cx="1045" cy="188" r="3"/></g>
+<text x="600" y="335" fill="#94a3b8" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="3">RESEARCH QUESTIONS → ENGINEERED SYSTEMS</text>
 </svg>
