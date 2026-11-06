@@ -1,14 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080d18,35:102438,75:075985,100:111827&height=205&section=header&text=Daksh%20Walia&fontSize=50&fontColor=e6f7ff&fontAlignY=37&animation=fadeIn&desc=Software%20Engineering%20%7C%20Systems%20%7C%20Research&descSize=16&descAlignY=61&descColor=67e8f9" width="100%" alt="Daksh Walia — software engineering, systems, research" />
+<img src="https://raw.githubusercontent.com/patchyevolve/patchyevolve/main/assets/research-map.svg" width="100%" alt="Daksh Walia — software engineering, systems, and research across systems, code intelligence, security and machine learning, and interactive systems" />
 
 **I study how software behaves beneath the interface, then build tools and products around what I learn.**
 
 [GitHub](https://github.com/patchyevolve) · [Email](mailto:ishandaksh1000@gmail.com) · [LinkedIn](https://www.linkedin.com/in/daksh-walia-107748308/)
 
 </div>
-
-<img src="https://raw.githubusercontent.com/patchyevolve/patchyevolve/main/assets/research-map.svg" width="100%" alt="Research map: systems, code intelligence, security and machine learning, and interactive systems connected from research questions to engineered systems" />
 
 ## Research & engineering
 
