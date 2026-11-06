@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/network-systems.svg" alt="Daksh Walia — networks in motion, systems under the hood" width="100%">
+  <img src="https://raw.githubusercontent.com/patchyevolve/patchyevolve/main/assets/network-systems.svg" alt="Daksh Walia — networks in motion, systems under the hood" width="100%">
 </p>
 
 <p align="center">
